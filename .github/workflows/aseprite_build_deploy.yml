@@ -149,7 +149,7 @@ jobs:
       - name: Make portable zip
         working-directory: aseprite/build/bin
         shell: bash
-        run: echo '# This file is here so Aseprite behaves as a portable program' > aseprite.ini
+        run: echo '# This file is here so Aseprite can behave as a portable program' > aseprite.ini
 
       - name: Create release zip
         working-directory: aseprite/build/bin
